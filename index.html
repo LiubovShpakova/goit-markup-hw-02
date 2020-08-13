@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -17,9 +21,9 @@
         <ul class="menu-nav">
           <li><a href="./index.html" class="link current">Студия</a></li>
           <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-          <li><a href="#" class="link">Контакты</a></li>
+          <li><a href=" " class="link">Контакты</a></li>
         </ul>
-        <ul class="menu-nav">
+        <ul class="menu-mail">
           <li>
             <a href="mailto:info@devstudio.com" class="link"
               >info@devstudio.com</a
@@ -43,7 +47,7 @@
       <!-- Особенности -->
       <section>
         <h1 class="qualities">Особенности</h1>
-        <ul>
+        <ul class="white-list">
           <li>
             <img src="./image/antenna.svg" alt="антена" width="70" />
             <h2 class="title-qualities">Внимание к деталям</h2>
@@ -99,10 +103,10 @@
       </section>
 
       <!-- Наша команда -->
-      <section>
+      <section class="our-team">
         <h1 class="main-title">Наша команда</h1>
         <ul class="white-list">
-          <li>
+          <li class="crewman">
             <img
               src="./image/igor_demyanenko.jpg"
               alt="фото игорь демьяненко"
@@ -119,7 +123,7 @@
               <li><a href="#">линкедин</a></li>
             </ul>
           </li>
-          <li>
+          <li class="crewman">
             <img
               src="./image/olga_repina.jpg"
               alt="фото ольга репина"
@@ -136,7 +140,7 @@
               <li><a href="#">линкедин</a></li>
             </ul>
           </li>
-          <li>
+          <li class="crewman">
             <img
               src="./image/nikolay_tarasov.jpg"
               alt="фото николай тарасов"
@@ -153,7 +157,7 @@
               <li><a href="#">линкедин</a></li>
             </ul>
           </li>
-          <li>
+          <li class="crewman">
             <img
               src="./image/mihail_ermakov.jpg"
               alt="фото михаил ермаков"
@@ -213,20 +217,21 @@
     <!-- Подвал -->
     <footer>
       <div>
-        <a href="./index.html">Web Studio</a>
-        <address>
+        <a href="./index.html" lang="en" class="logo-footer">
+          <span class="logo-footer-accent">Web</span>Studio</a
+        >
+        <address class="contacts">
           г. Киев, пр-т Леси Украинки, 26 <br />
-          <a href="mailto:info@example.com">info@example.com</a><br />
-          <a href="tel:+380991111111">+38 099 111 11 11</a>
+          <a href="mailto:info@example.com" class="link">info@example.com</a
+          ><br />
+          <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
         </address>
       </div>
       <!-- Ссылки на соцсети -->
       <div>
         <h2>присоединяйтесь</h2>
-        <ul>
-          <li>
-            <a href="#">инстаграм</a>
-          </li>
+        <ul class="white-list">
+          <li><a href="#">инстаграм</a></li>
           <li><a href="#">твиттер</a></li>
           <li><a href="#">фейсбук</a></li>
           <li><a href="#">линкедин</a></li>
@@ -235,7 +240,7 @@
       <!-- Подписка -->
       <div>
         <h2>подпишитесь на рассылку</h2>
-        <ul>
+        <ul class="white-list">
           <li>
             <a href="#">почта</a>
           </li>

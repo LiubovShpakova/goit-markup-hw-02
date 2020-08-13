@@ -14,38 +14,29 @@
 }
 body {
   background-color: var(--title-color);
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
 }
 /* шапка */
 .logo {
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
-  text-decoration: none;
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
   color: #000000;
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 .logo-accent {
   color: var(--accent-color);
 }
 .menu-nav {
-  left: 453px;
-  top: 32px;
-  font-style: normal;
-  list-style: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.15;
   letter-spacing: 0.02em;
 }
 .menu-nav .link {
-  color: var (--title-text-color);
+  color: var (--primary-text-color);
   text-decoration: none;
 }
 .menu-nav .link:hover,
@@ -55,108 +46,142 @@ body {
 .menu-nav .link.current {
   color: var(--accent-color);
 }
+.menu-mail {
+  list-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+}
+.menu-mail .link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.menu-mail .link:hover,
+.menu-mail .link:focus {
+  color: var(--accent-color);
+}
 /* баннер */
 .center-text {
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 .button {
+  color: var(--title-color);
+  background-color: var(--accent-color);
   width: 200px;
   height: 50px;
   left: 700px;
   top: 430px;
-  color: var(--title-color);
-  background-color: var(--accent-color);
 }
 /* особенности */
 .qualities {
   color: var(--title-color);
 }
 .title-qualities {
+  color: var(--title-text-color);
   width: 270px;
   height: 16px;
   left: 215px;
   top: 774px;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.15;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--title-text-color);
 }
 .text-qualities {
+  color: var(--primary-text-color);
   width: 270px;
   height: 75px;
   left: 215px;
   top: 800px;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
 }
 /* Чем мы занимаемся */
 .main-title {
-  height: 42px;
-  left: 612px;
-  top: 969px;
-  font-style: normal;
-  font-weight: bold;
+  color: var(--title-text-color);
+  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-text-color);
 }
 .white-list {
   list-style: none;
 }
 /* Наша команда */
+.our-team {
+  background-color: var(--primary-color);
+}
+.crewman {
+  background-color: #ffffff;
+}
 .professional-name {
-  width: 151px;
-  height: 19px;
-  left: 275px;
-  top: 1925px;
-  font-style: normal;
+  color: var (--title-text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var (--title-text-color);
 }
 .professional {
-  width: 147px;
-  height: 19px;
-  left: 577px;
-  top: 1954px;
-  font-style: normal;
-  font-weight: normal;
+  color: var(--primary-text-color);
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
 }
+/*Футер*/
+footer {
+  color: #ffffff;
+  background-color: #2f303a;
+}
+
+.logo-footer {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.logo-footer-accent {
+  color: var(--accent-color);
+}
+.contacts {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.contacts .link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
 /* Портфолио */
 .button-portfolio {
+  color: var(--title-text-color);
+  background-color: var(--primary-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
   height: 26px;
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   border: 0;
-  color: var(--title-text-color);
-  background-color: var(--primary-color);
 }
 button-portfolio:focus {
   outline: none;
@@ -170,19 +195,18 @@ button-portfolio:focus {
   color: var(--title-color);
   background-color: var(--accent-color);
 }
+
 /* Портфолио Проекты */
 .project-name {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 36px;
-  letter-spacing: 0.06em;
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .project-line {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
