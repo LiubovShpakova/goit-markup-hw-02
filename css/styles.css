@@ -122,6 +122,7 @@ body {
 }
 .crewman {
   background-color: #ffffff;
+  width: 270px;
 }
 .professional-name {
   color: var (--title-text-color);
